@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="technical-specs">
+    <title>Technical Specifications</title>
+    <shortdesc>Complete technical specifications for the GrainFlow X50.</shortdesc>
+    <refbody>
+        <section id="mechanical">
+            <title>Mechanical Specifications</title>
+            <table frame="all" rowsep="1" colsep="1">
+                <tgroup cols="2">
+                    <colspec colnum="1" colname="col1" colwidth="40*"/>
+                    <colspec colnum="2" colname="col2" colwidth="60*"/>
+                    <thead>
+                        <row>
+                            <entry><b>Parameter</b></entry>
+                            <entry><b>Value</b></entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Dimensions (L x W x H)</entry>
+                            <entry>2.5m x 1.8m x 3.2m</entry>
+                        </row>
+                        <row>
+                            <entry>Weight</entry>
+                            <entry>4,500 kg</entry>
+                        </row>
+                        <row>
+                            <entry>Hopper Capacity</entry>
+                            <entry>1,200 L</entry>
+                        </row>
+                        <row>
+                            <entry>Power Supply</entry>
+                            <entry>400V / 50 Hz / 3-phase</entry>
+                        </row>
+                        <row>
+                            <entry>Motor Power</entry>
+                            <entry>45 kW</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        
+        <section id="throughput">
+            <title>Throughput Specifications</title>
+            <table frame="all" rowsep="1" colsep="1">
+                <tgroup cols="3">
+                    <colspec colnum="1" colname="col1" colwidth="30*"/>
+                    <colspec colnum="2" colname="col2" colwidth="35*"/>
+                    <colspec colnum="3" colname="col3" colwidth="35*"/>
+                    <thead>
+                        <row>
+                            <entry><b>Grain Type</b></entry>
+                            <entry><b>Standard Model</b></entry>
+                            <entry><b>Advanced Model</b></entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Wheat</entry>
+                            <entry>50 TPH</entry>
+                            <entry>80 TPH</entry>
+                        </row>
+                        <row>
+                            <entry>Barley</entry>
+                            <entry>45 TPH</entry>
+                            <entry>70 TPH</entry>
+                        </row>
+                        <row>
+                            <entry>Maize</entry>
+                            <entry>40 TPH</entry>
+                            <entry>65 TPH</entry>
+                        </row>
+                        <row>
+                            <entry>Rice</entry>
+                            <entry>35 TPH</entry>
+                            <entry>55 TPH</entry>
+                        </row>
+                        <row>
+                            <entry>Soybean</entry>
+                            <entry>45 TPH</entry>
+                            <entry>72 TPH</entry>
+                        </row>
+                        <row>
+                            <entry>Oats</entry>
+                            <entry>40 TPH</entry>
+                            <entry>65 TPH</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        
+        <section id="environmental">
+            <title>Environmental Specifications</title>
+            <ul>
+                <li>Operating Temperature: 5°C to 45°C</li>
+                <li>Storage Temperature: -20°C to 60°C</li>
+                <li>Humidity: 10% to 90% (non-condensing)</li>
+                <li>IP Rating: IP54</li>
+            </ul>
+        </section>
+    </refbody>
+</reference>

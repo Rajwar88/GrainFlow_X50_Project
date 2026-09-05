@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="faq">
+    <title>Frequently Asked Questions (FAQ)</title>
+    <shortdesc>Quick answers to common operational, technical, and maintenance questions regarding the GrainFlow X50.</shortdesc>
+    <body>
+        <section id="faq-startup">
+            <title>Q1: Why won't my GrainFlow X50 start?</title>
+            <p>A: Check the following checklist before calling support:</p>
+            <ul>
+                <li>Main electrical isolator is in the ON position and 400V power is present.</li>
+                <li>Emergency stop button is disengaged (twist clockwise to reset).</li>
+                <li>All safety inspection doors and belt guards are latched shut (interlocks active).</li>
+                <li>No active critical alarm present on HMI.</li>
+            </ul>
+        </section>
+
+        <section id="faq-cleaning">
+            <title>Q2: How often should I clean the machine?</title>
+            <p>A: Perform daily cleaning of dust collection chambers and sieve ball trays. Weekly maintenance includes filter inspection and belt tension verification.</p>
+        </section>
+
+        <section id="faq-throughput">
+            <title>Q3: My throughput is lower than expected. What should I check?</title>
+            <p>A: Reduced throughput is typically caused by improper feed gate adjustment, blinded sieve perforations, or insufficient air velocity. Inspect the feed roll gap and clean the sieve screens using rubber ball agitators.</p>
+        </section>
+
+        <section id="faq-moisture">
+            <title>Q4: What is the maximum recommended grain moisture content?</title>
+            <p>A: The optimal moisture content for peak cleaning efficiency is below 15%. Processing grain above 18% moisture may lead to screen blinding and screen deck clumping.</p>
+        </section>
+
+        <section id="faq-screen-change">
+            <title>Q5: How do I change the sieve screens for a different crop type?</title>
+            <p>A: Power down and lock out the machine. Release the quick-clamping levers on the sieve boat, slide out the current screen frames, insert the new crop-specific screens, and re-torque clamping bolts to 45 Nm.</p>
+        </section>
+
+        <section id="faq-air-tuning">
+            <title>Q6: How do I adjust air balance when switching from wheat to light barley?</title>
+            <p>A: Access the manual damper handwheel or HMI air control menu. Reduce aspirator fan speed or close air dampers slightly to prevent good barley kernels from being lifted into the light chaff discharge.</p>
+        </section>
+
+        <section id="faq-iot">
+            <title>Q7: How do I connect the GrainFlow X50 to Bühler Connect Cloud?</title>
+            <p>A: Connect an Ethernet cable from the PLC cabinet to your plant network. Enter your Bühler IoT tenant ID in the HMI Network menu. Predictive maintenance data will start syncing automatically.</p>
+        </section>
+
+        <section id="faq-atex">
+            <title>Q8: Is the machine rated for ATEX explosive dust environments?</title>
+            <p>A: Models equipped with the ATEX Option Package are certified for ATEX Zone 22 (Dust) internal and external installation in accordance with EN 1127-1.</p>
+        </section>
+
+        <section id="faq-warranty">
+            <title>Q9: What is covered under the standard warranty?</title>
+            <p>A: The machine is covered by a 24 months factory warranty covering structural, mechanical, and electrical component defects. Consumables (screens, belts, rubber balls) are excluded.</p>
+        </section>
+
+        <section id="faq-support">
+            <title>Q10: How can I order replacement parts or request emergency field service?</title>
+            <p>A: Contact Bühler Global Support at +41 71 955 11 11 or email support.grainflow@buhlergroup.com. Please have your machine serial number ready.</p>
+        </section>
+    </body>
+</topic>

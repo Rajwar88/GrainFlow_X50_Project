@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="adjusting-airflow">
+    <title>Adjusting Airflow Settings</title>
+    <shortdesc>Optimize grain cleaning efficiency by adjusting airflow.</shortdesc>
+    <taskbody>
+        <section id="airflow-basics">
+            <title>Understanding Airflow</title>
+            <p>The GrainFlow X50 uses a precision airflow system to separate lighter impurities from the grain.</p>
+            
+            <dl>
+                <dlentry>
+                    <dt>Low Airflow (10-20%)</dt>
+                    <dd>Used for delicate grains to prevent damage (e.g., rice, millet)</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Medium Airflow (40-60%)</dt>
+                    <dd>Standard setting for wheat, barley, and oats</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>High Airflow (80-100%)</dt>
+                    <dd>Used for heavy grains or high moisture content (e.g., maize, soybeans)</dd>
+                </dlentry>
+            </dl>
+        </section>
+        
+        <steps>
+            <step>
+                <cmd>Access the <b>Settings</b> menu on the HMI.</cmd>
+            </step>
+            <step>
+                <cmd>Select <b>Airflow Configuration</b>.</cmd>
+            </step>
+            <step>
+                <cmd>Use the slider or numeric input to set desired airflow percentage.</cmd>
+                <info><p>Current airflow is displayed in real-time.</p></info>
+            </step>
+            <step>
+                <cmd>Press <b>Apply</b> to save changes.</cmd>
+                <info><p>The new airflow setting will take effect immediately.</p></info>
+            </step>
+        </steps>
+
+        <section id="grain-specific-wheat">
+            <title>Wheat-Specific Settings</title>
+            <p>For wheat, we recommend an airflow setting between 50-65% to achieve optimum cleaning efficiency.</p>
+        </section>
+        
+        <section id="grain-specific-maize">
+            <title>Maize-Specific Settings</title>
+            <p>Maize requires higher airflow. Start at 75% and adjust based on moisture content.</p>
+        </section>
+        
+        <section id="grain-specific-rice">
+            <title>Rice-Specific Settings</title>
+            <p>Rice is delicate and requires lower airflow. Recommended setting is 20-30%.</p>
+        </section>
+    </taskbody>
+</task>

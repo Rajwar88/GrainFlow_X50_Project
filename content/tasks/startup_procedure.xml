@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="startup-procedure">
+    <title>Startup Procedure</title>
+    <shortdesc>Follow these steps to safely start the GrainFlow X50.</shortdesc>
+    <taskbody>
+        <section id="pre-start-checklist">
+            <title>Pre-Start Checklist</title>
+            <p>Complete the following checks before starting the machine:</p>
+            <table frame="all" rowsep="1" colsep="1">
+                <tgroup cols="2">
+                    <colspec colnum="1" colname="col1" colwidth="25*"/>
+                    <colspec colnum="2" colname="col2" colwidth="75*"/>
+                    <thead>
+                        <row>
+                            <entry><b>Check</b></entry>
+                            <entry><b>Action Required</b></entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Visual Inspection</entry>
+                            <entry>Inspect all guards, covers, and safety devices for damage or missing parts</entry>
+                        </row>
+                        <row>
+                            <entry>Power Supply</entry>
+                            <entry>Verify main power supply is connected and within voltage specification (400V ± 10%)</entry>
+                        </row>
+                        <row>
+                            <entry>Cleaning</entry>
+                            <entry>Ensure all interior chambers are free from debris from the previous shift</entry>
+                        </row>
+                        <row>
+                            <entry>Bearing Lubrication</entry>
+                            <entry>Check bearing lubrication status. Top up if necessary</entry>
+                        </row>
+                        <row>
+                            <entry>Emergency Stop</entry>
+                            <entry>Verify emergency stop button is released (twist to reset)</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        
+        <steps>
+            <step>
+                <cmd>Locate the main power switch on the control panel.</cmd>
+                <info><p>Refer to the control panel diagram in the appendix.</p></info>
+            </step>
+            <step>
+                <cmd>Turn the switch to the <b>ON</b> position.</cmd>
+                <info><p>The HMI (Human Machine Interface) will display the startup screen.</p></info>
+            </step>
+            <step>
+                <cmd>Wait 60 seconds for the system self-diagnostic to complete.</cmd>
+                <info>
+                    <p>The system checks sensor responses, motor RPM, and fault codes.</p>
+                </info>
+            </step>
+            <step>
+                <cmd>Enter the desired throughput rate on the HMI touchscreen.</cmd>
+                <info><p>Default rate is 50 tonnes per hour. Range is 20-80 TPH.</p></info>
+            </step>
+            <step>
+                <cmd>Press the <b>Start</b> button on the HMI screen to begin operation.</cmd>
+                <info>
+                    <p>The system starts main motor, conveyor belt, and cleaning process.</p>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

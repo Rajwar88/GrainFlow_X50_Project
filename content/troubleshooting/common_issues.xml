@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="common-issues">
+    <title>Common Issues and Solutions</title>
+    <shortdesc>Quick reference for common operational issues.</shortdesc>
+    <body>
+        <section id="issue-noise">
+            <title>Excessive Noise from the Machine</title>
+            <p><b>Potential Causes:</b></p>
+            <ul>
+                <li>Loose components or guards</li>
+                <li>Worn bearings</li>
+                <li>Foreign object inside the chamber</li>
+                <li>Belt tension incorrect</li>
+            </ul>
+            <p><b>Solutions:</b></p>
+            <ul>
+                <li>Stop the machine immediately.</li>
+                <li>Conduct a visual inspection of all external and accessible internal components.</li>
+                <li>Check bearing temperature. Replace if bearings are overheating.</li>
+                <li>If noise persists, contact Bühler Support.</li>
+            </ul>
+        </section>
+        
+        <section id="issue-vibration">
+            <title>Excessive Vibration During Operation</title>
+            <p><b>Potential Causes:</b></p>
+            <ul>
+                <li>Machine not level</li>
+                <li>Imbalanced rotor</li>
+                <li>Worn vibration dampers</li>
+                <li>Uneven feeding</li>
+            </ul>
+            <p><b>Solutions:</b></p>
+            <ul>
+                <li>Check machine alignment and leveling using a precision level.</li>
+                <li>Adjust leveling feet as needed.</li>
+                <li>Inspect vibration dampers for wear. Replace if cracked or flattened.</li>
+                <li>Ensure even grain flow across the entire width of the machine.</li>
+            </ul>
+        </section>
+        
+        <section id="issue-low-throughput">
+            <title>Low Throughput</title>
+            <p><b>Potential Causes:</b></p>
+            <ul>
+                <li>Blocked screens or filters</li>
+                <li>Incorrect airflow settings</li>
+                <li>Grain moisture too high</li>
+                <li>Motor speed incorrect</li>
+            </ul>
+            <p><b>Solutions:</b></p>
+            <ul>
+                <li>Clean screens and filters</li>
+                <li>Adjust airflow settings</li>
+                <li>Dry grain before processing</li>
+                <li>Verify motor RPM settings</li>
+            </ul>
+        </section>
+    </body>
+</topic>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="warning-low">
+    <title>Low Severity Technical Notes</title>
+    <body>
+        <section id="note-lubrication-quality">
+            <title>NOTICE: Approved Synthetic Lubricants</title>
+            <note type="note">
+                <p><b>NOTE:</b> For maximum bearing lifespan, always use Bühler certified food-grade synthetic grease (Buhler-Lube-G2).</p>
+            </note>
+        </section>
+
+        <section id="note-eco-mode">
+            <title>NOTICE: Automatic Power Saving Mode</title>
+            <note type="note">
+                <p><b>NOTE:</b> When idle for more than 15 minutes, the aspiration fan automatically throttles down to 30% speed to conserve electrical energy.</p>
+            </note>
+        </section>
+    </body>
+</topic>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="safety-features">
+    <title>Safety Features</title>
+    <shortdesc>Overview of safety systems on the GrainFlow X50.</shortdesc>
+    <conbody>
+        <section id="safety-systems">
+            <title>Safety Systems</title>
+            <table frame="all" rowsep="1" colsep="1">
+                <tgroup cols="3">
+                    <colspec colnum="1" colname="col1" colwidth="20*"/>
+                    <colspec colnum="2" colname="col2" colwidth="40*"/>
+                    <colspec colnum="3" colname="col3" colwidth="40*"/>
+                    <thead>
+                        <row>
+                            <entry><b>System</b></entry>
+                            <entry><b>Description</b></entry>
+                            <entry><b>Location</b></entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Emergency Stop</entry>
+                            <entry>Immediately stops all moving parts</entry>
+                            <entry>Control panel + remote points</entry>
+                        </row>
+                        <row>
+                            <entry>Safety Guards</entry>
+                            <entry>Protect operators from moving parts</entry>
+                            <entry>All access points</entry>
+                        </row>
+                        <row>
+                            <entry>Temperature Sensors</entry>
+                            <entry>Monitor bearing and motor temperature</entry>
+                            <entry>Bearings and motor housing</entry>
+                        </row>
+                        <row>
+                            <entry>Vibration Detection</entry>
+                            <entry>Detects imbalance and alerts operator</entry>
+                            <entry>Main frame</entry>
+                        </row>
+                        <row>
+                            <entry>Interlock System</entry>
+                            <entry>Prevents operation when guards are open</entry>
+                            <entry>All access doors</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </conbody>
+</concept>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="operating-principles">
+    <title>Operating Principles</title>
+    <shortdesc>Theory of operation for the GrainFlow X50, explaining aerodynamic aspiration, dual-deck screening, and particle separation mechanics.</shortdesc>
+    <conbody>
+        <section id="separation-overview">
+            <title>Two-Stage Separation Overview</title>
+            <p>The GrainFlow X50 utilizes a high-efficiency two-stage cleaning process combining high-velocity aerodynamic aspiration with double-deck eccentric screening. Raw grain entering the machine undergoes pre-aspiration before passing over precision-perforated sieve beds, followed by final post-aspiration.</p>
+        </section>
+
+        <section id="pneumatic-aspiration">
+            <title>1. Pneumatic Air Separation (Aspiration)</title>
+            <p>Air separation relies on terminal velocity differences between clean grain kernels and lightweight impurities (straw, chaff, dust, and empty hulls).</p>
+            <ul>
+                <li><b>Pre-Aspiration:</b> As incoming grain cascades over the distribution feed roller, a controlled air curtain extracts light dust prior to mechanical screening.</li>
+                <li><b>Post-Aspiration:</b> After screening, cleaned grain passes through a vertical air channel with adjustable air velocity matching the specific grain density.</li>
+            </ul>
+        </section>
+
+        <section id="mechanical-screening">
+            <title>2. Mechanical Sieve Deck Screening</title>
+            <p>The sieve deck operates via counterbalanced eccentric drives producing a reciprocating throw angle of 12°. Grain flows across two distinct sieve layers:</p>
+            <ul>
+                <li><b>Scalping Sieve (Top Deck):</b> Retains oversized foreign particles (stones, corn cobs, large sticks) while allowing clean grain and fine impurities to drop through.</li>
+                <li><b>Sand/Fines Sieve (Bottom Deck):</b> Retains prime grain while allowing undersized broken kernels, weed seeds, and sand to fall through the perforations.</li>
+            </ul>
+        </section>
+
+        <section id="throughput-variants">
+            <title>Premium Multi-Velocity Air Balance</title>
+            <p>On GrainFlow X50 Premium models operating at 100 TPH, automated static pressure sensors dynamically regulate the recirculation fan dampers, maintaining optimal separation efficiency across fluctuating moisture levels.</p>
+        </section>
+    </conbody>
+</concept>

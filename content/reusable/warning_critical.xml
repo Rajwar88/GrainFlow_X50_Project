@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="warning-critical">
+    <title>Critical Safety Warnings</title>
+    <body>
+        <section id="warning-electrical-critical">
+            <title>DANGER: High Voltage &amp; Electrical Shock Hazard</title>
+            <note type="danger">
+                <p><b>DANGER:</b> Electrical maintenance must be performed exclusively by certified electricians. Always apply Lockout/Tagout (LOTO) procedures on the main 400V 3-phase circuit isolator before opening control enclosures.</p>
+            </note>
+        </section>
+
+        <section id="warning-moving-parts-critical">
+            <title>DANGER: Rotating Drive Belts &amp; Reciprocating Sieve Boat</title>
+            <note type="danger">
+                <p><b>DANGER:</b> Entanglement hazard! Never operate the GrainFlow X50 with belt guards or inspection hatches removed. Keep hands and loose clothing clear of moving parts.</p>
+            </note>
+        </section>
+    </body>
+</topic>

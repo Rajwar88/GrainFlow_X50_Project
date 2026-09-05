@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="product-overview">
+    <title>Product Overview</title>
+    <shortdesc>The GrainFlow X50 is a high-capacity grain cleaning system designed for industrial agricultural operations.</shortdesc>
+    <conbody>
+        <section id="introduction">
+            <title>Introduction</title>
+            <p>The GrainFlow X50 is a state-of-the-art machine that efficiently separates impurities from grains using precision airflow and advanced screening technology. It is part of the GrainFlow Series.</p>
+        </section>
+        
+        <section id="key-features">
+            <title>Key Features</title>
+            <ul>
+                <li><b>Throughput:</b> Up to 80 tonnes per hour</li>
+                <li><b>Efficiency:</b> 99.5% impurity removal rate</li>
+                <li><b>Energy Consumption:</b> 15% more efficient than previous models</li>
+                <li><b>IoT Enabled:</b> Remote monitoring via Bühler Connect</li>
+                <li><b>Safety:</b> Advanced safety interlocks and emergency stop system</li>
+            </ul>
+        </section>
+        
+        <section id="applications">
+            <title>Applications</title>
+            <p>The GrainFlow X50 is suitable for:</p>
+            <ul>
+                <li>Wheat</li>
+                <li>Barley</li>
+                <li>Corn/Maize</li>
+                <li>Rice</li>
+                <li>Soybeans</li>
+                <li>Oats</li>
+            </ul>
+        </section>
+        
+        <section id="variant-standard">
+            <title>Standard Model</title>
+            <p>The standard model offers throughput up to 50 tonnes per hour with basic IoT monitoring.</p>
+        </section>
+        
+        <section id="variant-advanced">
+            <title>Advanced Model</title>
+            <p>The advanced model offers throughput up to 80 tonnes per hour with enhanced IoT capabilities including predictive maintenance alerts.</p>
+        </section>
+    </conbody>
+</concept>

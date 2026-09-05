@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE variables SYSTEM "variables.dtd">
+<variables>
+    <!-- ========================================================================= -->
+    <!-- PRODUCT IDENTITY & BRANDING                                               -->
+    <!-- ========================================================================= -->
+    <variable name="product-name"                 value="GrainFlow X50"/>
+    <variable name="product-short"                value="GFX50"/>
+    <variable name="product-family"               value="GrainFlow Series"/>
+    <variable name="product-model-year"           value="2026"/>
+    <variable name="product-country-of-origin"   value="Switzerland"/>
+    <variable name="manufacturer-name"            value="Bühler AG"/>
+    <variable name="manufacturer-brand"           value="Bühler Group"/>
+
+    <!-- ========================================================================= -->
+    <!-- SPECIFICATIONS & PHYSICAL CHARACTERISTICS                                 -->
+    <!-- ========================================================================= -->
+    <variable name="throughput-max-standard"       value="50 TPH"/>
+    <variable name="throughput-max-advanced"       value="80 TPH"/>
+    <variable name="throughput-max-premium"        value="100 TPH"/>
+    <variable name="product-weight-kg"            value="4500 kg"/>
+    <variable name="product-dimensions"           value="2.5m x 1.8m x 3.2m"/>
+    <variable name="product-power-requirement"     value="400V / 50 Hz / 3-phase"/>
+    <variable name="product-motor-power"          value="45 kW"/>
+    <variable name="product-hopper-capacity"       value="1200 L"/>
+    <variable name="air-volume-rating"            value="14,000 m³/h"/>
+    <variable name="screen-area-total"            value="12.5 m²"/>
+    <variable name="product-energy-label"         value="IE4 Super Premium Efficiency"/>
+    <variable name="product-warranty-period"       value="24 months"/>
+
+    <!-- ========================================================================= -->
+    <!-- SAFETY & COMPLIANCE                                                       -->
+    <!-- ========================================================================= -->
+    <variable name="product-certified-to"         value="ISO 9001, CE, UKCA, UL, ATEX Zone 22"/>
+    <variable name="product-safety-standard"       value="ISO 12100:2023, EN 12858"/>
+    <variable name="noise-level-dba"              value="82 dB(A)"/>
+    <variable name="required-ppe"                value="Safety glasses, hearing protection, safety footwear, dust mask (FFP2)"/>
+    <variable name="lockout-tagout-required"       value="Yes (LOTO Protocol Buhler-SEC-04)"/>
+    <variable name="emergency-stop-type"         value="Category 1 SIL 3 / PL e (IEC 62061 / ISO 13849-1)"/>
+    <variable name="machine-safety-rating"       value="PL d / Cat. 3"/>
+
+    <!-- ========================================================================= -->
+    <!-- DOCUMENT METADATA & REVISION CONTROL                                      -->
+    <!-- ========================================================================= -->
+    <variable name="doc-part-number"             value="GFX50-UG-2026-02"/>
+    <variable name="doc-version"                 value="2.0"/>
+    <variable name="doc-release-date"            value="2026-03-15"/>
+    <variable name="doc-language"                value="en-US"/>
+    <variable name="doc-kind"                   value="Enhanced Technical Manual"/>
+    <variable name="doc-author-name"             value="Prakash Rajwar"/>
+    <variable name="doc-author-email"            value="prakash.rajwar@buhlergroup.com"/>
+    <variable name="doc-contributor-names"       value="Quality Assurance, Process Engineering, Safety Compliance"/>
+    <variable name="doc-reviewer-names"          value="Lead Technical Writer, Principal Safety Engineer"/>
+    <variable name="doc-approval-name"           value="Head of Product Management Grain Processing"/>
+    <variable name="doc-approval-role"           value="Global Product Owner"/>
+    <variable name="doc-approval-date"           value="2026-03-10"/>
+    <variable name="doc-last-modified"           value="2026-03-10"/>
+    <variable name="doc-status"                  value="Approved for Publication"/>
+    <variable name="doc-classification"          value="Customer &amp; Service Technical Documentation"/>
+    <variable name="doc-distribution"            value="Global Customer Portal"/>
+    <variable name="doc-supersedes"              value="GFX50-UG-2025-01"/>
+    <variable name="doc-publisher"               value="Bühler AG, Uzwil, Switzerland"/>
+    <variable name="doc-publisher-dept"          value="Grain Processing Technical Communication Services"/>
+    <variable name="doc-copyright-holder"        value="Bühler Group"/>
+    <variable name="doc-copyright-start-year"    value="2024"/>
+    <variable name="doc-copyright-end-year"      value="2026"/>
+    <variable name="doc-next-review-date"        value="2027-03-15"/>
+
+    <!-- ========================================================================= -->
+    <!-- COMPANY & SUPPORT                                                         -->
+    <!-- ========================================================================= -->
+    <variable name="company-name"                 value="Bühler Group"/>
+    <variable name="company-division"             value="Grain Processing Division"/>
+    <variable name="company-address"              value="Gupfenstrasse 5, CH-9240 Uzwil, Switzerland"/>
+    <variable name="company-website"              value="https://www.buhlergroup.com"/>
+    <variable name="support-email"                value="support.grainflow@buhlergroup.com"/>
+    <variable name="support-phone"                value="+41 71 955 11 11"/>
+    <variable name="support-emergency-phone"      value="+41 71 955 11 99 (24/7 Global Emergency Support)"/>
+    <variable name="support-hours"                value="24/7 Global Operations Support"/>
+    <variable name="support-portal"               value="https://mybuhler.buhlergroup.com"/>
+
+    <!-- ========================================================================= -->
+    <!-- REGIONAL & LOCALIZATION OVERRIDES                                         -->
+    <!-- ========================================================================= -->
+    <variable name="regional-voltage"             value="400V 3-phase"/>
+    <variable name="regional-power-frequency"     value="50 Hz"/>
+    <variable name="regional-plug-type"           value="IEC 60309 Industrial Red 32A"/>
+    <variable name="regional-compliance-standards" value="CE, UKCA, EAC, CCC"/>
+    <variable name="regional-legal-notice"        value="Complies with Directive 2006/42/EC on Machinery."/>
+
+    <!-- ========================================================================= -->
+    <!-- LOCALIZED UI & SEVERITY STRINGS                                           -->
+    <!-- ========================================================================= -->
+    <variable name="title-warning-critical"         value="DANGER - CRITICAL SAFETY RISK"/>
+    <variable name="title-warning-high"             value="WARNING - HIGH HAZARD"/>
+    <variable name="title-warning-medium"           value="CAUTION - MACHINE SAFETY"/>
+    <variable name="title-warning-low"              value="NOTICE - OPERATIONAL ADVISORY"/>
+    <variable name="welcome-title"                  value="GrainFlow X50 Documentation Suite"/>
+    <variable name="welcome-message"                value="Welcome to the official technical documentation for the Bühler GrainFlow X50 high-capacity grain cleaning machine."/>
+    <variable name="legal-copyright-line"             value="© 2024–2026 Bühler Group. All rights reserved."/>
+    <variable name="legal-notice-default"            value="This technical publication contains proprietary information of Bühler Group."/>
+</variables>

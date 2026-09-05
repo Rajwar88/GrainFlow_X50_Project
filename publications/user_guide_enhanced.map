@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="user-guide-enhanced">
+    <title>GrainFlow X50 Master User Guide (Enhanced Edition)</title>
+    <topicmeta>
+        <shortdesc>Complete master technical manual for the GrainFlow X50 grain cleaning system incorporating multi-variant profiling and full modular topic architecture.</shortdesc>
+        <audience type="user"/>
+        <prodinfo>
+            <prodname>GrainFlow X50</prodname>
+            <vrmlist><vrm version="2.0"/></vrmlist>
+        </prodinfo>
+    </topicmeta>
+    
+    <!-- Front Matter & Legal -->
+    <topicref href="../content/reusable/legal_disclaimer.xml" type="topic"/>
+    <topicref href="../content/reusable/warning_critical.xml" type="topic"/>
+    <topicref href="../content/reusable/warning_high.xml" type="topic"/>
+    <topicref href="../content/reusable/warning_medium.xml" type="topic"/>
+    <topicref href="../content/reusable/warning_low.xml" type="topic"/>
+    
+    <!-- System Architecture & Principles -->
+    <topicref href="../content/concepts/product_overview.xml" type="concept"/>
+    <topicref href="../content/concepts/operating_principles.xml" type="concept"/>
+    <topicref href="../content/concepts/machine_components.xml" type="concept"/>
+    <topicref href="../content/concepts/safety_features.xml" type="concept"/>
+    <topicref href="../content/concepts/emergency_stop.xml" type="concept"/>
+    
+    <!-- Setup & Operation -->
+    <topicref href="../content/tasks/first_time_setup.xml" type="task"/>
+    <topicref href="../content/tasks/startup_procedure.xml" type="task"/>
+    <topicref href="../content/tasks/adjusting_airflow.xml" type="task"/>
+    <topicref href="../content/tasks/clearing_jam.xml" type="task"/>
+    <topicref href="../content/tasks/shutdown_procedure.xml" type="task"/>
+    
+    <!-- Preventative Maintenance -->
+    <topicref href="../content/maintenance/maintenance_schedule.xml" type="task"/>
+    <topicref href="../content/maintenance/daily_cleaning.xml" type="task"/>
+    <topicref href="../content/maintenance/filter_replacement.xml" type="task"/>
+    
+    <!-- Diagnostics & Support -->
+    <topicref href="../content/troubleshooting/error_codes.xml" type="reference" navtitle="Error Codes &amp; Diagnosis"/>
+    <topicref href="../content/troubleshooting/common_issues.xml" type="topic"/>
+    <topicref href="../content/faq/faq_topics.xml" type="topic"/>
+    
+    <!-- Technical Specifications -->
+    <topicref href="../content/appendix/technical_specs.xml" type="reference"/>
+</map>

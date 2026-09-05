@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="troubleshooting-guide">
+    <title>GrainFlow X50 Troubleshooting Guide</title>
+    <topicmeta>
+        <shortdesc>Quick reference troubleshooting guide for the GrainFlow X50</shortdesc>
+        <audience type="user"/>
+        <prodinfo>
+            <prodname>GrainFlow X50</prodname>
+            <vrmlist><vrm version="2.0"/></vrmlist>
+        </prodinfo>
+    </topicmeta>
+    
+    <topicref href="../content/troubleshooting/error_codes.xml" type="reference"/>
+    <topicref href="../content/troubleshooting/common_issues.xml" type="topic"/>
+    <topicref href="../content/faq/faq_topics.xml" type="topic"/>
+</map>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="filter-replacement">
+    <title>Filter Replacement</title>
+    <shortdesc>Replacing filters at the correct interval maintains airflow efficiency.</shortdesc>
+    <taskbody>
+        <section id="when-to-replace">
+            <title>When to Replace Filters</title>
+            <ul>
+                <li>Every 500 operating hours</li>
+                <li>When airflow drops below 80% of optimal</li>
+                <li>Visible damage to filter material</li>
+            </ul>
+        </section>
+        
+        <steps>
+            <step>
+                <cmd>Shut down the machine and disconnect power.</cmd>
+                <info><p>Never change filters while the machine is running or connected to power.</p></info>
+            </step>
+            <step>
+                <cmd>Open the main filter access panel.</cmd>
+            </step>
+            <step>
+                <cmd>Remove the old filter element.</cmd>
+                <info><p>Dispose of the old filter according to local environmental regulations.</p></info>
+            </step>
+            <step>
+                <cmd>Clean the filter housing using a vacuum.</cmd>
+            </step>
+            <step>
+                <cmd>Install the new filter element, ensuring proper alignment.</cmd>
+            </step>
+            <step>
+                <cmd>Close the access panel securely.</cmd>
+            </step>
+            <step>
+                <cmd>Restart the machine and verify normal airflow.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

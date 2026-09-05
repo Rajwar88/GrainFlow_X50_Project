@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="clearing-jam">
+    <title>Clearing Machine Blockages &amp; Jams</title>
+    <shortdesc>Safe procedure for isolating power, opening access hatches, and removing material blockages from the sieve boat or aspirator duct.</shortdesc>
+    <taskbody>
+        <section id="safety-warning">
+            <title>CRITICAL SAFETY WARNING</title>
+            <p><b>DANGER:</b> NEVER insert hands or tools into the machine while power is connected. Lockout/Tagout (LOTO) is mandatory before opening access doors!</p>
+        </section>
+
+        <steps>
+            <step>
+                <cmd>Press the red E-STOP button on the control panel or remote station.</cmd>
+            </step>
+            <step>
+                <cmd>Turn main isolator switch to OFF position and secure with personal padlock and lockout tag.</cmd>
+            </step>
+            <step>
+                <cmd>Wait minimum 3 minutes for sieve boat eccentric and blower fan to come to complete standstill.</cmd>
+            </step>
+            <step>
+                <cmd>Unclamp quick-release latches on side inspection doors.</cmd>
+            </step>
+            <step>
+                <cmd>Using wooden scraper or brass scraper (non-sparking), remove accumulated straw, foreign objects, or damp grain crust.</cmd>
+            </step>
+            <step>
+                <cmd>Inspect vertical aspiration channel and clean air distribution vanes.</cmd>
+            </step>
+            <step>
+                <cmd>Close all inspection doors, verify latches are locked, remove LOTO padlock, reset E-STOP, and initiate standard startup.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

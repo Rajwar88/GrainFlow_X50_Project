@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="first-time-setup">
+    <title>First-Time Setup &amp; Commissioning</title>
+    <shortdesc>Step-by-step procedure for unpacking, leveling, electrical connection, and initial calibration of the GrainFlow X50.</shortdesc>
+    <taskbody>
+        <section id="prerequisites">
+            <title>Prerequisites</title>
+            <p>Ensure the installation site satisfies the following requirements:</p>
+            <ul>
+                <li>Level concrete foundation rated for minimum 4500 kg static load.</li>
+                <li>Power outlet matching 400V / 50 Hz / 3-phase.</li>
+                <li>Required PPE worn: Safety glasses, hearing protection, safety footwear, dust mask (FFP2).</li>
+            </ul>
+        </section>
+
+        <steps>
+            <step>
+                <cmd>Unpack &amp; inspect machine for transit damage.</cmd>
+                <info><p>Remove anti-corrosion transit brackets securing the sieve boat drive eccentric.</p></info>
+            </step>
+            <step>
+                <cmd>Level and mount the machine frame.</cmd>
+                <info><p>Place spirit level on top frame rail of sieve boat. Adjust corner leveling feet until horizontal deviation is less than 0.5 mm/m. Anchor base plates with M16 expansion bolts.</p></info>
+            </step>
+            <step>
+                <cmd>Connect electrical power supply.</cmd>
+                <info><p>Connect main power cables to terminal block L1, L2, L3, N, PE in accordance with local regulations. Verify rotation direction of blower motor matches directional arrow.</p></info>
+            </step>
+            <step>
+                <cmd>Perform sensor zero-point calibration.</cmd>
+                <info><p>From the PLC touchscreen, navigate to Service &gt; Calibration and perform zero-point tare calibration on aspirator air pressure sensors and feed gate actuators.</p></info>
+            </step>
+            <step>
+                <cmd>Execute initial dry test run.</cmd>
+                <info><p>Perform a 15-minute un-loaded test run to check for abnormal vibration, bearing heat rise, or air seal leakage.</p></info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="shutdown-procedure">
+    <title>Shutdown Procedure</title>
+    <shortdesc>Follow these steps to safely shut down the GrainFlow X50.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Press the <b>Stop</b> button on the HMI.</cmd>
+                <info><p>The machine will begin its cooldown cycle (approx 30 seconds).</p></info>
+            </step>
+            <step>
+                <cmd>Wait for the machine to completely stop.</cmd>
+                <info><p>Do not open any guards until the machine has completely stopped.</p></info>
+            </step>
+            <step>
+                <cmd>Turn the main power switch to the <b>OFF</b> position.</cmd>
+            </step>
+            <step>
+                <cmd>Lock out/tag out the power supply if maintenance is required.</cmd>
+                <info><p>Always use lock-out/tag-out procedures before performing any maintenance or cleaning.</p></info>
+            </step>
+        </steps>
+
+        <section id="post-shutdown">
+            <title>Post-Shutdown Checklist</title>
+            <ul>
+                <li>Record production data from the HMI</li>
+                <li>Note any anomalies observed during operation</li>
+                <li>Clean the machine if required for the next shift</li>
+            </ul>
+        </section>
+    </taskbody>
+</task>

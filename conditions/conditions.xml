@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE conditions SYSTEM "conditions.dtd">
+<conditions>
+    <!-- Product variants -->
+    <condition-group name="product-type" default="standard">
+        <condition name="standard" label="Standard Model">
+            <description>Standard model features and specifications</description>
+        </condition>
+        <condition name="advanced" label="Advanced Model">
+            <description>Advanced model features and specifications</description>
+        </condition>
+        <condition name="premium" label="Premium Model">
+            <description>Premium model features and specifications</description>
+        </condition>
+    </condition-group>
+    
+    <!-- Severity levels for warnings -->
+    <condition-group name="severity">
+        <condition name="critical" label="Critical">
+            <description>Critical - Must be shown always</description>
+        </condition>
+        <condition name="high" label="High">
+            <description>High - Important warnings</description>
+        </condition>
+        <condition name="medium" label="Medium">
+            <description>Medium - Informational warnings</description>
+        </condition>
+        <condition name="low" label="Low">
+            <description>Low - Minor notes</description>
+        </condition>
+    </condition-group>
+    
+    <!-- Grain types -->
+    <condition-group name="grain-type" default="all">
+        <condition name="wheat" label="Wheat"/>
+        <condition name="maize" label="Maize/Corn"/>
+        <condition name="rice" label="Rice"/>
+        <condition name="barley" label="Barley"/>
+        <condition name="soybean" label="Soybean"/>
+        <condition name="oats" label="Oats"/>
+        <condition name="all" label="All Grain Types"/>
+    </condition-group>
+</conditions>

@@ -1,0 +1,4 @@
+<!-- ST4 Variables DTD Fallback -->
+<!ELEMENT variables (variable*)>
+<!ELEMENT variable EMPTY>
+<!ATTLIST variable name CDATA #REQUIRED value CDATA #IMPLIED>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="daily-cleaning">
+    <title>Daily Cleaning Procedure</title>
+    <shortdesc>Proper daily cleaning ensures optimal performance and longevity of the GrainFlow X50.</shortdesc>
+    <taskbody>
+        <section id="safety-reminder">
+            <title>Safety First</title>
+            <warning severity="critical">
+                <p>Always disconnect the machine from the power supply before cleaning. Use lock-out/tag-out procedures.</p>
+            </warning>
+        </section>
+        
+        <steps>
+            <step>
+                <cmd>Shut down the machine and disconnect power.</cmd>
+            </step>
+            <step>
+                <cmd>Open the access doors and safety guards.</cmd>
+            </step>
+            <step>
+                <cmd>Remove and clean the pre-filter screens.</cmd>
+                <info><p>Use compressed air to remove debris, or wash with water and mild detergent if heavily soiled.</p></info>
+            </step>
+            <step>
+                <cmd>Clean the interior chambers with a soft brush and vacuum.</cmd>
+                <info><p>Pay special attention to corners where dust can accumulate.</p></info>
+            </step>
+            <step>
+                <cmd>Wipe down the exterior with a clean, dry cloth.</cmd>
+            </step>
+            <step>
+                <cmd>Close all access doors and guards.</cmd>
+            </step>
+            <step>
+                <cmd>Reconnect power and perform a system check.</cmd>
+            </step>
+        </steps>
+
+        <section id="frequency">
+            <title>Cleaning Schedule</title>
+            <table frame="all" rowsep="1" colsep="1">
+                <tgroup cols="2">
+                    <colspec colnum="1" colname="col1" colwidth="30*"/>
+                    <colspec colnum="2" colname="col2" colwidth="70*"/>
+                    <thead>
+                        <row>
+                            <entry><b>Component</b></entry>
+                            <entry><b>Frequency</b></entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Pre-filter screens</entry>
+                            <entry>Every 8 hours (or shift change)</entry>
+                        </row>
+                        <row>
+                            <entry>Interior chambers</entry>
+                            <entry>Daily</entry>
+                        </row>
+                        <row>
+                            <entry>Exterior</entry>
+                            <entry>Daily</entry>
+                        </row>
+                        <row>
+                            <entry>Main filter system</entry>
+                            <entry>Weekly</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </taskbody>
+</task>

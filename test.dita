@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-topic">
+    <title>GrainFlow X50 - Test Document</title>
+    <body>
+        <p>This is a test document generated with DITA-OT.</p>
+        <p>This confirms the tool is working correctly.</p>
+        <p>Generated on: $(date)</p>
+    </body>
+</topic>

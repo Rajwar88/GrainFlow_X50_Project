@@ -1,0 +1,22 @@
+# Project-specific Hermes config for GrainFlow
+model:
+  default: llama3.2:latest
+  provider: ollama-local
+
+providers:
+  ollama-local:
+    type: custom
+    name: Ollama (Local)
+    base_url: http://172.22.16.1:11434/v1
+    api_key: ollama
+    models:
+      - llama3.2:latest
+      - Mistral:7B
+    default_model: llama3.2:latest
+    context_length: 131072
+
+# Project context
+project:
+  name: GrainFlow_X50
+  type: documentation
+  root: /mnt/c/Users/rajwa/ST4/GrainFlow_X50_Project

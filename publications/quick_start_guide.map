@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="quick-start-guide">
+    <title>GrainFlow X50 Quick Start Guide</title>
+    <topicmeta>
+        <shortdesc>Compact 2-page quick reference card for daily operator startup, safety checks, and basic air adjustments.</shortdesc>
+        <audience type="user"/>
+        <prodinfo>
+            <prodname>GrainFlow X50</prodname>
+            <vrmlist><vrm version="2.0"/></vrmlist>
+        </prodinfo>
+    </topicmeta>
+    
+    <!-- Reusable Critical & High Safety Warnings -->
+    <topicref href="../content/reusable/warning_critical.xml" type="topic"/>
+    <topicref href="../content/reusable/warning_high.xml" type="topic"/>
+    
+    <!-- Product Overview & Emergency Stop -->
+    <topicref href="../content/concepts/product_overview.xml" type="concept"/>
+    <topicref href="../content/concepts/emergency_stop.xml" type="concept"/>
+    
+    <!-- Core Operating Tasks -->
+    <topicref href="../content/tasks/startup_procedure.xml" type="task"/>
+    <topicref href="../content/tasks/adjusting_airflow.xml" type="task"/>
+    <topicref href="../content/tasks/shutdown_procedure.xml" type="task"/>
+    
+    <!-- Quick Troubleshooting Reference -->
+    <topicref href="../content/troubleshooting/error_codes.xml" type="reference"/>
+</map>

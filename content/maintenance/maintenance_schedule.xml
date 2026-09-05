@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="maintenance-schedule">
+    <title>Master Maintenance Schedule</title>
+    <shortdesc>Comprehensive preventative maintenance intervals for the GrainFlow X50, categorised by daily, weekly, monthly, and annual service routines.</shortdesc>
+    <taskbody>
+        <section id="daily-maintenance">
+            <title>Daily Maintenance Tasks (Every 8-10 Operating Hours)</title>
+            <ul>
+                <li>Inspect feed hopper for foreign objects.</li>
+                <li>Clean aspirator glass windows and light sensors.</li>
+                <li>Check rubber ball cleaning tray underneath sieve screens.</li>
+                <li><b>Dusty Zone Extra:</b> Blow out motor cooling fan shrouds with compressed air every 4 hours.</li>
+            </ul>
+        </section>
+
+        <section id="weekly-maintenance">
+            <title>Weekly Maintenance Tasks (Every 50 Operating Hours)</title>
+            <ul>
+                <li>Inspect sieve deck tension bolts and torque to specified 45 Nm.</li>
+                <li>Check drive belt tension and wear on blower fan pulley.</li>
+                <li>Drain moisture separator on pneumatic control circuit.</li>
+                <li><b>Cold Zone Extra:</b> Inspect condensate drains daily to prevent frost buildup in pneumatic lines.</li>
+            </ul>
+        </section>
+
+        <section id="monthly-maintenance">
+            <title>Monthly Maintenance Tasks (Every 200 Operating Hours)</title>
+            <ul>
+                <li>Grease main eccentric drive shaft bearings with Bühler Food-Grade Synthetic Grease (Buhler-Lube-G2).</li>
+                <li>Inspect rubber flexible isolation mounts for micro-tears or degradation.</li>
+                <li>Check electrical terminal connections inside main control cabinet.</li>
+            </ul>
+        </section>
+
+        <section id="annual-maintenance">
+            <title>Annual / Major Service (Every 5000 Operating Hours)</title>
+            <ul>
+                <li>Replace all sieve boat rubber suspension mounts.</li>
+                <li>Calibrate motor current sensors and vibration monitors.</li>
+                <li>Conduct full laser alignment of drive motor and eccentric shaft.</li>
+            </ul>
+        </section>
+    </taskbody>
+</task>

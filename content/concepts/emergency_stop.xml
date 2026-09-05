@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="emergency-stop">
+    <title>Emergency Stop System</title>
+    <shortdesc>Learn how the emergency stop system protects operators and equipment.</shortdesc>
+    <conbody>
+        <section id="system-overview">
+            <title>System Overview</title>
+            <p>The GrainFlow X50 is equipped with a comprehensive emergency stop system that can be activated from multiple locations.</p>
+            <ul>
+                <li>Main control panel emergency stop button</li>
+                <li>Remote emergency stops at conveyor access points</li>
+                <li>Wireless emergency stop fob (optional)</li>
+            </ul>
+        </section>
+        
+        <section id="procedure-standard">
+            <title>Standard Model</title>
+            <p>The standard model includes one emergency stop button on the control panel.</p>
+        </section>
+        
+        <section id="procedure-advanced">
+            <title>Advanced Model</title>
+            <p>The advanced model includes three additional remote emergency stops for improved safety coverage across the entire machine footprint.</p>
+        </section>
+    </conbody>
+</concept>

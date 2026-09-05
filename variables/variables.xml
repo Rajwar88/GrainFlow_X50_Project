@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE variables SYSTEM "variables.dtd">
+<variables>
+    <!-- ========================================================================= -->
+    <!-- PRODUCT INFORMATION                                                       -->
+    <!-- ========================================================================= -->
+
+    <!-- Product identity -->
+    <variable name="product-name"           value="GrainFlow X50"/>
+    <variable name="product-short"          value="GFX50"/>
+    <variable name="product-family"         value="GrainFlow Series"/>
+    <variable name="product-model-year"     value="2026"/>
+    <variable name="product-country-of-origin" value="Switzerland"/>
+
+    <!-- Product certifications and compliance -->
+    <variable name="product-certified-to"   value="ISO 9001, CE, UL"/>
+    <variable name="product-safety-standard" value="ISO 12100, EN 12858"/>
+    <variable name="product-energy-label"   value="A"/>
+
+    <!-- Warranty -->
+    <variable name="product-warranty-period" value="24 months"/>
+
+    <!-- Physical specifications (used for display and reuse) -->
+    <variable name="product-weight-kg"      value="4500"/>
+    <variable name="product-dimensions"     value="2.5m x 1.8m x 3.2m"/>
+    <variable name="product-power-requirement" value="400V / 50 Hz / 3-phase"/>
+    <variable name="product-motor-power"    value="45 kW"/>
+    <variable name="product-hopper-capacity" value="1200 L"/>
+
+    <!-- Safety specifications -->
+    <variable name="noise-level-dba"        value="85 dB(A)"/>
+    <variable name="required-ppe"          value="Safety glasses, hearing protection, dust mask"/>
+    <variable name="lockout-tagout-required" value="Yes"/>
+    <variable name="emergency-stop-type"   value="Category 1 (IEC 60204-1)"/>
+    <variable name="machine-safety-rating" value="PL d / Cat. 3 (ISO 13849-1)"/>
+
+    <!-- Throughput (base standard-model values; variants override via conditions) -->
+    <variable name="throughput-max-standard" value="50 TPH"/>
+    <variable name="throughput-max-advanced" value="80 TPH"/>
+    <variable name="throughput-max-premium"  value="100 TPH"/>
+
+
+    <!-- ========================================================================= -->
+    <!-- COMPANY & SUPPORT INFORMATION                                             -->
+    <!-- ========================================================================= -->
+
+    <variable name="company-name"           value="Bühler Group"/>
+    <variable name="company-division"       value="Grain Processing Division"/>
+    <variable name="company-address"        value="Uzwil, Switzerland"/>
+    <variable name="company-logo"           value="../assets/buhler-logo.png"/>
+    <variable name="company-website"        value="https://www.buhlergroup.com"/>
+    <variable name="company-registration"   value="Registered in Switzerland"/>
+
+
+    <!-- ========================================================================= -->
+    <!-- GLOBAL SUPPORT CONTACTS (fallback when no regional override exists)       -->
+    <!-- ========================================================================= -->
+
+    <variable name="support-email"          value="support.grainflow@buhlergroup.com"/>
+    <variable name="support-phone"          value="+41 71 955 11 11"/>
+    <variable name="support-hours"          value="Monday–Friday, 08:00–17:00 CET"/>
+    <variable name="support-emergency-phone" value="+41 71 955 11 99 (24/7 emergency line)"/>
+    <variable name="support-portal"         value="https://support.buhlergroup.com"/>
+
+
+    <!-- ========================================================================= -->
+    <!-- REGIONAL OVERRIDES                                                        -->
+    <!-- ========================================================================= -->
+    <!-- These variables are market-specific. Include a region-specific variable    -->
+    <!-- file (e.g. variables_region_de.xml) to override the defaults below for     -->
+    <!-- a particular market, or set them directly when building for a region.      -->
+
+    <!-- Electrical / infrastructure -->
+    <variable name="regional-voltage"               value="400V"/>
+    <variable name="regional-power-frequency"       value="50 Hz"/>
+    <variable name="regional-plug-type"             value="Type J (Swiss)"/>
+    <variable name="regional-compliance-standards"  value="CE, UKCA, CCC"/>
+
+    <!-- Regional support (overrides global contacts when set) -->
+    <variable name="local-service-phone"            value=""/>
+    <variable name="local-service-email"            value=""/>
+    <variable name="local-service-website"          value=""/>
+    <variable name="local-service-hours"            value=""/>
+
+    <!-- Regional regulatory / legal notices -->
+    <variable name="regional-legal-notice"          value="This product complies with applicable EU directives."/>
+    <variable name="regional-disposal-instructions" value="Dispose of packaging and old equipment according to local regulations."/>
+
+
+    <!-- ========================================================================= -->
+    <!-- DOCUMENT METADATA                                                         -->
+    <!-- ========================================================================= -->
+
+    <!-- Identification -->
+    <variable name="doc-part-number"       value="GFX50-UG-2026-01"/>
+    <variable name="doc-version"           value="2.0"/>
+    <variable name="doc-release-date"      value="2026-03-15"/>
+    <variable name="doc-language"          value="en-US"/>
+    <variable name="doc-kind"             value="User Guide"/>
+
+    <!-- Authorship -->
+    <variable name="doc-author-name"       value="Technical Documentation Team"/>
+    <variable name="doc-author-email"      value="docs@buhlergroup.com"/>
+    <variable name="doc-contributor-names" value="Quality Assurance, Product Management, Safety Engineering"/>
+
+    <!-- Approval -->
+    <variable name="doc-reviewer-names"    value="QA Team, Safety Engineer"/>
+    <variable name="doc-approval-name"     value="Product Manager"/>
+    <variable name="doc-approval-role"     value="Responsible for technical accuracy"/>
+    <variable name="doc-approval-date"     value="2026-03-10"/>
+    <variable name="doc-last-modified"     value="2026-03-10"/>
+
+    <!-- Publication lifecycle -->
+    <variable name="doc-status"            value="Published"/>
+    <variable name="doc-classification"    value="Customer Documentation"/>
+    <variable name="doc-distribution"      value="Worldwide"/>
+    <variable name="doc-supersedes"        value="GFX50-UG-2025-03"/>
+    <variable name="doc-superseded-by"     value=""/>
+    <variable name="doc-publisher"         value="Bühler Group"/>
+    <variable name="doc-publisher-dept"    value="Grain Processing Division"/>
+    <variable name="doc-copyright-holder"  value="Bühler Group"/>
+    <variable name="doc-copyright-start-year" value="2024"/>
+    <variable name="doc-copyright-end-year"   value="2026"/>
+    <variable name="doc-license-type"      value="Proprietary"/>
+    <variable name="doc-print-disclaimer"  value="Uncontrolled when printed"/>
+    <variable name="doc-next-review-date"  value="2027-03-15"/>
+    <variable name="doc-review-cycle"      value="Annual"/>
+
+    <!-- Hardware compatibility tracking -->
+    <variable name="hardware-applies-to"           value="v2.0"/>
+    <variable name="hardware-compatibility"        value="v1.5, v2.0"/>
+    <variable name="topic-last-validated-on-hardware" value="v2.0 (2026-02-15)"/>
+
+
+    <!-- ========================================================================= -->
+    <!-- REVIEW & WORKFLOW STATE                                                    -->
+    <!-- ========================================================================= -->
+    <!-- Used by review workflows and conditional content to show/hide review       -->
+    <!-- markers, draft watermarks, and approval stamps.                            -->
+
+    <variable name="review-stage"          value="approved"/>
+    <variable name="review-due-date"       value=""/>
+    <variable name="review-complete"       value="Yes"/>
+    <variable name="reviewers-required"    value="Technical Writer, Safety Engineer, Product Manager"/>
+
+
+    <!-- ========================================================================= -->
+    <!-- OUTPUT & FORMATTING                                                       -->
+    <!-- ========================================================================= -->
+
+    <variable name="doc-output-format"       value="PDF"/>
+    <variable name="doc-page-size"          value="A4"/>
+    <variable name="doc-cover-color"        value="#E87722"/>
+    <variable name="doc-cover-image"        value="../assets/cover_user_guide.png"/>
+    <variable name="doc-toc-depth"         value="2"/>
+    <variable name="doc-index-included"     value="Yes"/>
+    <variable name="doc-glossary-included"  value="No"/>
+    <variable name="doc-footer-text"        value="GrainFlow X50 User Guide | v2.0 | GFX50-UG-2026-01"/>
+    <variable name="doc-header-text"        value="© Bühler Group"/>
+    <variable name="doc-pdf-filename"       value="GrainFlow_X50_User_Guide_v2.0.pdf"/>
+
+
+    <!-- ========================================================================= -->
+    <!-- LOCALIZATION / TRANSLATION FRIENDLY STRINGS                                -->
+    <!-- ========================================================================= -->
+    <!-- These string variables hold user-visible text that varies by language.     -->
+    <!-- When translating, create a language-specific variable file (e.g.           -->
+    <!-- variables_lang_de.xml) that overrides these values.                         -->
+
+    <!-- Document / UI chrome -->
+    <variable name="language-code"              value="en-US"/>
+    <variable name="language-name"              value="English (US)"/>
+    <variable name="language-direction"         value="ltr"/>
+    <variable name="language-date-format-short" value="MM/DD/YYYY"/>
+    <variable name="language-date-format-long"  value="Month DD, YYYY"/>
+    <variable name="language-number-format"     value="1,234.56"/>
+    <variable name="language-currency"          value="USD"/>
+    <variable name="language-currency-symbol"   value="$"/>
+    <variable name="language-thousands-sep"     value=","/>
+    <variable name="language-decimal-sep"       value="."/>
+    <variable name="language-measurement-system" value="metric"/>
+
+    <!-- UI labels and markers -->
+    <variable name="label-save"                 value="Save"/>
+    <variable name="label-cancel"               value="Cancel"/>
+    <variable name="label-close"                value="Close"/>
+    <variable name="label-next"                 value="Next"/>
+    <variable name="label-previous"             value="Previous"/>
+    <variable name="label-print"                value="Print"/>
+    <variable name="label-search"               value="Search"/>
+    <variable name="label-table-of-contents"    value="Table of Contents"/>
+    <variable name="label-index"                value="Index"/>
+    <variable name="label-glossary"             value="Glossary"/>
+    <variable name="label-related-information"  value="Related Information"/>
+    <variable name="label-see-also"             value="See also"/>
+    <variable name="label-references"           value="References"/>
+
+    <!-- Warning / note titles (severity-branded) -->
+    <variable name="title-warning-critical"   value="WARNING"/>
+    <variable name="title-warning-high"       value="WARNING"/>
+    <variable name="title-warning-medium"     value="CAUTION"/>
+    <variable name="title-warning-low"        value="NOTE"/>
+    <variable name="title-caution"            value="CAUTION"/>
+    <variable name="title-important"          value="IMPORTANT"/>
+    <variable name="title-note"              value="NOTE"/>
+    <variable name="title-tip"               value="TIP"/>
+    <variable name="title-danger"            value="DANGER"/>
+
+    <!-- Common phrasing -->
+    <variable name="phrase-prerequisite"       value="Before you begin:"/>
+    <variable name="phrase-expected-result"    value="Expected result:"/>
+    <variable name="phrase-troubleshooting"    value="If the issue persists:"/>
+    <variable name="phrase-see-section"        value="For more information, see"/>
+    <variable name="phrase-last-reviewed"      value="Last reviewed:"/>
+
+    <!-- Legal / notice boilerplate -->
+    <variable name="legal-notice-default"      value="This document and its contents are the property of Bühler Group and may not be reproduced, distributed, or transmitted in any form without prior written permission."/>
+    <variable name="legal-liability-notice"    value="Bühler Group assumes no liability for damages arising from improper use, unauthorized modifications, or failure to follow the safety instructions contained in this document."/>
+    <variable name="legal-trademark-notice"    value="All trademarks and registered trademarks are the property of their respective owners."/>
+    <variable name="legal-copyright-line"       value="© 2024–2026 Bühler Group. All rights reserved."/>
+    <variable name="legal-disclaimer-text"      value=""/>
+    <variable name="legal-warranty-text"        value=""/>
+    <variable name="legal-regional-notice"      value=""/>
+
+    <!-- Welcome / introduction -->
+    <variable name="welcome-title"             value="Welcome to the GrainFlow X50"/>
+    <variable name="welcome-message"          value="Thank you for choosing the GrainFlow X50 grain cleaning system. This guide will help you operate, maintain, and troubleshoot your machine safely and efficiently."/>
+    <variable name="document-purpose"         value="This document provides complete operating instructions, maintenance procedures, and troubleshooting guidance for the GrainFlow X50."/>
+
+    <!-- Date / time display -->
+    <variable name="date-placeholder"          value="YYYY-MM-DD"/>
+    <variable name="time-placeholder"          value="HH:MM"/>
+    <variable name="datetime-format"          value="YYYY-MM-DD HH:MM"/>
+
+
+    <!-- ========================================================================= -->
+    <!-- CONTENT STATE FLAGS (per-topic conditionals via conditions.xml)            -->
+    <!-- ========================================================================= -->
+    <!-- These are NOT set here — they are defined as condition groups so topic     -->
+    <!-- authors can write conditional sections. Example usage:                     -->
+    <!--   <section condition="climate-zone=cold">...</section>                     -->
+    <!--   <section condition="operator-level=maintenance">...</section>            -->
+    <!-- Full definitions live in conditions/conditions.xml.                        -->
+</variables>

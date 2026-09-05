@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="release-notes">
+    <title>GrainFlow X50 Release Notes v2.0</title>
+    <topicmeta>
+        <shortdesc>Release notes for GrainFlow X50 version 2.0</shortdesc>
+        <audience type="user"/>
+        <prodinfo>
+            <prodname>GrainFlow X50</prodname>
+            <vrmlist><vrm version="2.0"/></vrmlist>
+        </prodinfo>
+    </topicmeta>
+    
+    <topicref href="../content/reusable/legal_disclaimer.xml" type="topic"/>
+    <topicref href="../content/release_notes/release_notes_v2.0.xml" type="topic"/>
+</map>

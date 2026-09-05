@@ -1,0 +1,7 @@
+<!-- ST4 Conditions DTD Fallback -->
+<!ELEMENT conditions (condition-group*)>
+<!ELEMENT condition-group (condition*)>
+<!ATTLIST condition-group name CDATA #REQUIRED default CDATA #IMPLIED>
+<!ELEMENT condition (description?)>
+<!ATTLIST condition name CDATA #REQUIRED label CDATA #IMPLIED>
+<!ELEMENT description (#PCDATA)>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="machine-components">
+    <title>Machine Components Overview</title>
+    <shortdesc>Structural breakdown and key functional assemblies of the GrainFlow X50 grain cleaning machine.</shortdesc>
+    <conbody>
+        <section id="component-breakdown">
+            <title>Primary Sub-Assemblies</title>
+            <p>The GrainFlow X50 consists of five primary mechanical and electrical sub-assemblies engineered for maximum reliability under continuous duty.</p>
+        </section>
+
+        <section id="feed-mechanism">
+            <title>1. Feed Hopper &amp; Variable Speed Feed Roller</title>
+            <p>Accepts raw bulk grain up to 1200 L and ensures an even, single-kernel thick curtain across the entire width of the aspirator channel.</p>
+        </section>
+
+        <section id="sieve-boat">
+            <title>2. Reciprocating Sieve Boat</title>
+            <p>Constructed from lightweight aircraft-grade aluminum. Holds interchangeable sieve frames equipped with rubber ball cleaners to prevent screen blinding during operation.</p>
+        </section>
+
+        <section id="air-separator">
+            <title>3. Air Recirculation Separator &amp; Blower Fan</title>
+            <p>Driven by a 45 kW motor, generating up to 14,000 m³/h airflow. Recirculates 85% of process air to minimize external dust emissions.</p>
+        </section>
+
+        <section id="cyclone-dust-collector">
+            <title>4. Heavy-Duty Cyclone Collector</title>
+            <p>Separates fine chaff and airborne dust from exhaust air before discharging collected waste into waste bins or central dust extraction systems.</p>
+        </section>
+
+        <section id="plc-control-panel">
+            <title>5. Touchscreen Control Panel (Bühler YieldMaster UI)</title>
+            <p>Provides centralized control over feed rate, air damper position, sieve frequency, and real-time sensor diagnostic readouts.</p>
+        </section>
+    </conbody>
+</concept>

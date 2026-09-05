@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE conditions SYSTEM "conditions.dtd">
+<conditions>
+    <!-- Product Variants -->
+    <condition-group name="product-type" default="standard">
+        <condition name="standard" label="Standard Model">
+            <description>Standard model features and specifications (50 TPH capacity)</description>
+        </condition>
+        <condition name="advanced" label="Advanced Model">
+            <description>Advanced model with enhanced throughput (80 TPH) and predictive analytics</description>
+        </condition>
+        <condition name="premium" label="Premium Model">
+            <description>Premium model with high-speed separation (100 TPH) and automated airflow adjustments</description>
+        </condition>
+    </condition-group>
+
+    <!-- Severity Levels for Warnings -->
+    <condition-group name="severity" default="medium">
+        <condition name="critical" label="Critical">
+            <description>Critical - Immediate risk of severe injury or catastrophic machine damage</description>
+        </condition>
+        <condition name="high" label="High">
+            <description>High - Potential risk of personal injury or significant equipment damage</description>
+        </condition>
+        <condition name="medium" label="Medium">
+            <description>Medium - Operational caution and quality impact warning</description>
+        </condition>
+        <condition name="low" label="Low">
+            <description>Low - General technical note or efficiency recommendation</description>
+        </condition>
+    </condition-group>
+
+    <!-- Grain Types -->
+    <condition-group name="grain-type" default="all">
+        <condition name="wheat" label="Wheat"/>
+        <condition name="maize" label="Maize/Corn"/>
+        <condition name="rice" label="Rice"/>
+        <condition name="barley" label="Barley"/>
+        <condition name="soybean" label="Soybean"/>
+        <condition name="oats" label="Oats"/>
+        <condition name="all" label="All Grain Types"/>
+    </condition-group>
+
+    <!-- Climate Zones -->
+    <condition-group name="climate-zone" default="temperate">
+        <condition name="temperate" label="Temperate Zone">
+            <description>Standard indoor/outdoor operating conditions (5°C to 35°C)</description>
+        </condition>
+        <condition name="hot-dry" label="Hot &amp; Dry Zone">
+            <description>Arid high-temperature environment (up to 50°C, low humidity)</description>
+        </condition>
+        <condition name="hot-humid" label="Hot &amp; Humid Zone">
+            <description>Tropical high-humidity environment (high moisture risk)</description>
+        </condition>
+        <condition name="cold" label="Cold Zone">
+            <description>Sub-zero operating environment (down to -25°C, requires anti-freeze lube)</description>
+        </condition>
+        <condition name="dusty" label="High Dust Zone">
+            <description>Elevated particulate environment requiring heavy-duty filter cycles</description>
+        </condition>
+    </condition-group>
+
+    <!-- Operator Target Audience Levels -->
+    <condition-group name="operator-level" default="basic">
+        <condition name="basic" label="Basic Operator">
+            <description>Machine operators performing standard daily operations and startup/shutdown</description>
+        </condition>
+        <condition name="advanced" label="Advanced Operator">
+            <description>Plant supervisors adjusting sieve tilt, airflow curves, and recipes</description>
+        </condition>
+        <condition name="maintenance" label="Maintenance Technician">
+            <description>On-site technicians performing scheduled PM and filter/bearing servicing</description>
+        </condition>
+        <condition name="service" label="Bühler Service Engineer">
+            <description>OEM certified engineers carrying out major overhauls and sensor calibration</description>
+        </condition>
+    </condition-group>
+
+    <!-- Installation Site Types -->
+    <condition-group name="installation-type" default="indoor">
+        <condition name="indoor" label="Indoor Mill/Silo">
+            <description>Enclosed industrial facility setup</description>
+        </condition>
+        <condition name="covered-outdoor" label="Covered Outdoor">
+            <description>Sheltered grain receiving station</description>
+        </condition>
+        <condition name="outdoor" label="Exposed Outdoor">
+            <description>Weather-hardened outdoor installation</description>
+        </condition>
+        <condition name="mobile" label="Mobile Grain Trailer">
+            <description>Portable cleaning setup mounted on flatbed chassis</description>
+        </condition>
+    </condition-group>
+
+    <!-- Optional Packages -->
+    <condition-group name="option-package" default="standard-package">
+        <condition name="standard-package" label="Standard Package"/>
+        <condition name="dust-collection" label="Aspiration &amp; Dust Collector Pack"/>
+        <condition name="washdown" label="IP66 Washdown Package"/>
+        <condition name="explosion-proof" label="ATEX Zone 22 Dust Explosion Proof"/>
+        <condition name="full-automation" label="Bühler YieldMaster Full Automation"/>
+    </condition-group>
+
+    <!-- Output Delivery Formats -->
+    <condition-group name="output-format" default="pdf">
+        <condition name="pdf" label="PDF Manual"/>
+        <condition name="html" label="HTML5 WebHelp"/>
+        <condition name="mobile" label="Mobile App View"/>
+        <condition name="quick-reference" label="Quick Reference Card"/>
+    </condition-group>
+
+    <!-- Applicable Safety Standards -->
+    <condition-group name="safety-standard" default="iso-12100-2023">
+        <condition name="iso-12100-2010" label="ISO 12100:2010"/>
+        <condition name="iso-12100-2023" label="ISO 12100:2023 (Global)"/>
+        <condition name="ansi-b11" label="ANSI B11 (North America)"/>
+        <condition name="osha" label="OSHA 1910 Compliance"/>
+    </condition-group>
+
+    <!-- Editorial & Governance Review Status -->
+    <condition-group name="review-status" default="approved">
+        <condition name="draft" label="Draft"/>
+        <condition name="under-review" label="Under QA Review"/>
+        <condition name="reviewed" label="Tech Review Complete"/>
+        <condition name="approved" label="Approved for Release"/>
+        <condition name="deprecated" label="Deprecated Topic"/>
+    </condition-group>
+</conditions>

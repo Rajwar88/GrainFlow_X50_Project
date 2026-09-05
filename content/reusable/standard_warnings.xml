@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="standard-warnings">
+    <title>Standard Safety Warnings</title>
+    <body>
+        <section id="warning-general">
+            <title>General Safety Warning</title>
+            <note type="danger">
+                <p>Always disconnect the GrainFlow X50 from the power supply before performing any maintenance, cleaning, or repair work. Failure to do so may result in serious injury or death.</p>
+            </note>
+        </section>
+        
+        <section id="warning-moving-parts">
+            <title>Moving Parts Warning</title>
+            <note type="danger">
+                <p>Keep hands, clothing, and tools clear of all moving parts while the GrainFlow X50 is in operation.</p>
+            </note>
+        </section>
+        
+        <section id="warning-noise">
+            <title>Hearing Protection Warning</title>
+            <note type="warning">
+                <p>Always wear appropriate hearing protection when operating the GrainFlow X50. Noise levels can exceed 82 dB(A).</p>
+            </note>
+        </section>
+        
+        <section id="warning-electrical">
+            <title>Electrical Hazard Warning</title>
+            <note type="danger">
+                <p>Only qualified electricians should perform electrical maintenance on the GrainFlow X50. Lock out/tag out procedures must be followed before opening any electrical panels.</p>
+            </note>
+        </section>
+    </body>
+</topic>

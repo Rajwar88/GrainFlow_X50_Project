@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="service-manual">
+    <title>GrainFlow X50 Field Service &amp; Maintenance Manual</title>
+    <topicmeta>
+        <shortdesc>Technical service manual for Bühler certified maintenance technicians and field service engineers.</shortdesc>
+        <audience type="service"/>
+        <prodinfo>
+            <prodname>GrainFlow X50</prodname>
+            <vrmlist><vrm version="2.0"/></vrmlist>
+        </prodinfo>
+    </topicmeta>
+    
+    <!-- Safety Infrastructure -->
+    <topicref href="../content/reusable/legal_disclaimer.xml" type="topic"/>
+    <topicref href="../content/reusable/warning_critical.xml" type="topic"/>
+    <topicref href="../content/reusable/warning_high.xml" type="topic"/>
+    
+    <!-- Architecture & Principles -->
+    <topicref href="../content/concepts/operating_principles.xml" type="concept"/>
+    <topicref href="../content/concepts/machine_components.xml" type="concept"/>
+    <topicref href="../content/concepts/safety_features.xml" type="concept"/>
+    
+    <!-- Installation & Setup -->
+    <topicref href="../content/tasks/first_time_setup.xml" type="task"/>
+    
+    <!-- Maintenance Schedules & Tasks -->
+    <topicref href="../content/maintenance/maintenance_schedule.xml" type="task"/>
+    <topicref href="../content/maintenance/daily_cleaning.xml" type="task"/>
+    <topicref href="../content/maintenance/filter_replacement.xml" type="task"/>
+    <topicref href="../content/tasks/clearing_jam.xml" type="task"/>
+    
+    <!-- Diagnostics & Error Codes -->
+    <topicref href="../content/troubleshooting/error_codes.xml" type="reference"/>
+    <topicref href="../content/troubleshooting/common_issues.xml" type="topic"/>
+    
+    <!-- Specifications -->
+    <topicref href="../content/appendix/technical_specs.xml" type="reference"/>
+</map>

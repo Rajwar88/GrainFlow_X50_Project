@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="release-notes-v2">
+    <title>Release Notes - Version 2.0</title>
+    <shortdesc>What's new in the GrainFlow X50 version 2.0.</shortdesc>
+    <body>
+        <section id="introduction">
+            <title>Introduction</title>
+            <p>We are pleased to announce the release of GrainFlow X50 version 2.0. This release includes significant improvements in performance, safety, and connectivity.</p>
+            <p>Release Date: 2026-03-15</p>
+            <p>Document Version: 2.0</p>
+        </section>
+        
+        <section id="new-features">
+            <title>New Features</title>
+            <ul>
+                <li><b>Remote Monitoring:</b> Connect to the GrainFlow X50 via IoT to monitor performance remotely.</li>
+                <li><b>Energy Efficiency Mode:</b> Reduces power consumption by 15% during low-load operation.</li>
+                <li><b>Self-Calibrating Sensors:</b> New sensor technology automatically adjusts for ambient conditions.</li>
+                <li><b>Multi-Language Interface:</b> HMI now supports 8 languages.</li>
+            </ul>
+        </section>
+
+        <section id="advanced-features">
+            <title>Advanced Model Exclusive Features</title>
+            <ul>
+                <li><b>Predictive Maintenance:</b> AI-driven alerts for potential failures.</li>
+                <li><b>Advanced Analytics:</b> Detailed performance dashboards and reports.</li>
+            </ul>
+        </section>
+        
+        <section id="improvements">
+            <title>Improvements</title>
+            <ul>
+                <li><b>Efficiency:</b> 15% improvement in energy efficiency</li>
+                <li><b>Reliability:</b> New bearing design increases lifespan by 25%</li>
+                <li><b>Safety:</b> Enhanced emergency stop system</li>
+            </ul>
+        </section>
+        
+        <section id="bug-fixes">
+            <title>Bug Fixes</title>
+            <ul>
+                <li>Fixed issue with sensor calibration at startup</li>
+                <li>Resolved communication error with HMI</li>
+                <li>Improved vibration detection accuracy</li>
+            </ul>
+        </section>
+        
+        <section id="known-issues">
+            <title>Known Issues</title>
+            <ul>
+                <li>When using high throughput (&gt;70 TPH), slight vibration may occur. This is being addressed for v2.1.</li>
+            </ul>
+        </section>
+    </body>
+</topic>

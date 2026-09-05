@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module SYSTEM "module.dtd">
+<module id="error-codes" type="reference">
+    <title>Error Codes &amp; Diagnosis</title>
+    <shortdesc>List of error codes and troubleshooting steps for the <variable name="product-name"/>.</shortdesc>
+    <metadata>
+        <description>Error codes and troubleshooting guide</description>
+        <keyword>error,troubleshooting,codes</keyword>
+    </metadata>
+    <body>
+        <section id="error-overview">
+            <title>Error Code Overview</title>
+            <p>When an error occurs, the HMI displays an error code and a brief description. Use this table to diagnose and resolve the issue.</p>
+            
+            <table frame="all" rowsep="1" colsep="1">
+                <tgroup cols="4">
+                    <colspec colnum="1" colname="col1" colwidth="10*"/>
+                    <colspec colnum="2" colname="col2" colwidth="20*"/>
+                    <colspec colnum="3" colname="col3" colwidth="45*"/>
+                    <colspec colnum="4" colname="col4" colwidth="10*"/>
+                    <thead>
+                        <row>
+                            <entry><b>Code</b></entry>
+                            <entry><b>Description</b></entry>
+                            <entry><b>Solution</b></entry>
+                            <entry><b>Severity</b></entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>E101</entry>
+                            <entry>Motor overload</entry>
+                            <entry>Reduce throughput rate. Check for mechanical obstruction. Check bearing condition.</entry>
+                            <entry>High</entry>
+                        </row>
+                        <row>
+                            <entry>E205</entry>
+                            <entry>Sensor connection lost</entry>
+                            <entry>Check sensor wiring and connections. Reboot the system.</entry>
+                            <entry>Medium</entry>
+                        </row>
+                        <row>
+                            <entry>E312</entry>
+                            <entry>Low airflow</entry>
+                            <entry>Check air filter condition. Adjust airflow settings. Inspect for blockages.</entry>
+                            <entry>Low</entry>
+                        </row>
+                        <row>
+                            <entry>E404</entry>
+                            <entry>Emergency stop activated</entry>
+                            <entry>Release the emergency stop button. Reset the system. Check for hazards before restart.</entry>
+                            <entry>Critical</entry>
+                        </row>
+                        <row>
+                            <entry>E510</entry>
+                            <entry>Temperature sensor fault</entry>
+                            <entry>Calibrate or replace temperature sensor. Check wiring.</entry>
+                            <entry>Medium</entry>
+                        </row>
+                        <row>
+                            <entry>E611</entry>
+                            <entry>Bearing temperature high</entry>
+                            <entry>Stop machine. Allow to cool. Check lubrication. Replace bearings if worn.</entry>
+                            <entry>High</entry>
+                        </row>
+                        <row>
+                            <entry>E723</entry>
+                            <entry>Vibration detected</entry>
+                            <entry>Check machine leveling. Inspect rotor balance. Check for foreign objects.</entry>
+                            <entry>Medium</entry>
+                        </row>
+                        <row>
+                            <entry>E845</entry>
+                            <entry>Communication error</entry>
+                            <entry>Check network connection. Verify system settings. Restart HMI.</entry>
+                            <entry>Low</entry>
+                        </row>
+                        <row>
+                            <entry>E908</entry>
+                            <entry>Speed sensor error</entry>
+                            <entry>Check sensor alignment. Clean sensor surface. Replace if defective.</entry>
+                            <entry>Medium</entry>
+                        </row>
+                        <row>
+                            <entry>E999</entry>
+                            <entry>Unknown error</entry>
+                            <entry>Contact <variable name="support-phone"/> or <variable name="support-email"/>. Provide error code and time of occurrence.</entry>
+                            <entry>Critical</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        
+        <!-- Conditional warning for critical errors -->
+        <section id="critical-warning" condition="severity=critical">
+            <warning>
+                <p>If a Critical or High severity error occurs, immediately stop the machine and contact <variable name="company-name"/> service support.</p>
+                <p>Do not attempt to operate the machine until the fault is resolved.</p>
+                <p>Contact: <variable name="support-phone"/> or <variable name="support-email"/></p>
+            </warning>
+        </section>
+    </body>
+</module>

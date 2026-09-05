@@ -1,0 +1,52 @@
+<!-- ST4 Module DTD Declaration -->
+<!ELEMENT module (title, shortdesc?, metadata?, body)>
+<!ATTLIST module id CDATA #REQUIRED type CDATA #IMPLIED>
+<!ELEMENT title (#PCDATA|variable)*>
+<!ELEMENT shortdesc (#PCDATA|variable)*>
+<!ELEMENT metadata (description?, keyword*)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT keyword (#PCDATA)>
+<!ELEMENT body (section|p|ul|ol|table|steps|dl|warning|note|link)*>
+<!ELEMENT section (title?, (p|ul|ol|table|steps|dl|warning|note|link)*)>
+<!ATTLIST section id CDATA #IMPLIED condition CDATA #IMPLIED severity CDATA #IMPLIED>
+<!ELEMENT p (#PCDATA|variable|b|i|u|link)*>
+<!ATTLIST p condition CDATA #IMPLIED>
+<!ELEMENT ul (li*)>
+<!ELEMENT ol (li*)>
+<!ELEMENT li (#PCDATA|variable|b|i|u|link)*>
+<!ATTLIST li condition CDATA #IMPLIED>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT i (#PCDATA)>
+<!ELEMENT u (#PCDATA)>
+<!ELEMENT variable EMPTY>
+<!ATTLIST variable name CDATA #REQUIRED>
+<!ELEMENT warning (#PCDATA|p|variable|b|i|u|link)*>
+<!ATTLIST warning id CDATA #IMPLIED severity CDATA #IMPLIED>
+<!ELEMENT note (#PCDATA|p|variable|b|i|u|link)*>
+<!ATTLIST note id CDATA #IMPLIED>
+<!ELEMENT link (#PCDATA)>
+<!ATTLIST link href CDATA #REQUIRED>
+
+<!-- Table elements -->
+<!ELEMENT table (tgroup*)>
+<!ATTLIST table id CDATA #IMPLIED frame CDATA #IMPLIED rowsep CDATA #IMPLIED colsep CDATA #IMPLIED>
+<!ELEMENT tgroup (colspec*, thead?, tbody?)>
+<!ATTLIST tgroup cols CDATA #IMPLIED>
+<!ELEMENT colspec EMPTY>
+<!ATTLIST colspec colnum CDATA #IMPLIED colname CDATA #IMPLIED colwidth CDATA #IMPLIED>
+<!ELEMENT thead (row*)>
+<!ELEMENT tbody (row*)>
+<!ELEMENT row (entry*)>
+<!ELEMENT entry (#PCDATA|p|variable|b|i|u|link)*>
+
+<!-- Steps elements -->
+<!ELEMENT steps (step*)>
+<!ELEMENT step (cmd, info*, warning*, note*)>
+<!ELEMENT cmd (#PCDATA|variable|b|i|u|link)*>
+<!ELEMENT info (#PCDATA|p|variable|b|i|u|link)*>
+
+<!-- Definition list elements -->
+<!ELEMENT dl (dlentry*)>
+<!ELEMENT dlentry (dt, dd)>
+<!ELEMENT dt (#PCDATA|variable|b|i|u|link)*>
+<!ELEMENT dd (#PCDATA|p|variable|b|i|u|link)*>

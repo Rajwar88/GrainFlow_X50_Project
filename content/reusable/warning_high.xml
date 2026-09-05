@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="warning-high">
+    <title>High Severity Hazards</title>
+    <body>
+        <section id="warning-dust-hazard">
+            <title>WARNING: Airborne Grain Dust Hazard</title>
+            <note type="warning">
+                <p><b>WARNING:</b> Inhalation of airborne grain dust can cause respiratory illness. Always wear an approved FFP2 dust mask during cleaning and filter maintenance.</p>
+            </note>
+        </section>
+
+        <section id="warning-noise-hazard">
+            <title>WARNING: High Acoustic Noise Emission</title>
+            <note type="warning">
+                <p><b>WARNING:</b> Operating sound levels reach 82 dB(A). Hearing protection must be worn at all times in the vicinity of the operating machine.</p>
+            </note>
+        </section>
+    </body>
+</topic>

@@ -1,0 +1,13 @@
+<!-- ST4 / DITA Map DTD Declaration -->
+<!ELEMENT map (title?, metadata?, include*, topicref*)>
+<!ATTLIST map id CDATA #REQUIRED title CDATA #IMPLIED>
+<!ELEMENT metadata (description|audience|product|version|language)*>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT audience (#PCDATA)>
+<!ELEMENT product (#PCDATA)>
+<!ELEMENT version (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT include EMPTY>
+<!ATTLIST include href CDATA #REQUIRED>
+<!ELEMENT topicref (topicref*)>
+<!ATTLIST topicref href CDATA #REQUIRED type CDATA #IMPLIED>
