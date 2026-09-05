@@ -1,0 +1,63 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en"><head><meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2026"><meta name="generator" content="DITA-OT"><meta name="description" content="Error codes and troubleshooting guide for GrainFlow X50."><meta name="prodname" content="GrainFlow X50"><meta name="version" content="2.0"><title>Error Codes &amp; Diagnosis</title><link rel="stylesheet" type="text/css" href="../../commonltr.css"></head><body id="error-codes"><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="title topictitle1" id="ariaid-title1">Error Codes &amp; Diagnosis</h1>
+    
+    <div class="body refbody"><p class="shortdesc">List of error codes and troubleshooting steps for the GrainFlow X50.</p>
+        <section class="section" id="error-codes__overview"><h2 class="title sectiontitle">Error Code Overview</h2>
+            <p class="p">When an error occurs, the HMI displays an error code and a brief description. Use this reference table to diagnose and resolve issues efficiently.</p>
+            
+            <table class="table frame-all">
+                <thead>
+                    <tr>
+                        <th>Code</th>
+                        <th>Description</th>
+                        <th>Solution</th>
+                        <th>Severity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>E101</strong></td>
+                        <td>Motor overload</td>
+                        <td>Reduce throughput rate. Check for mechanical obstruction. Inspect bearing condition.</td>
+                        <td><span class="ph b" style="color: #D9381E;">High</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>E205</strong></td>
+                        <td>Sensor connection lost</td>
+                        <td>Check sensor wiring and harness connections. Reboot system control panel.</td>
+                        <td><span class="ph b" style="color: #E87722;">Medium</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>E312</strong></td>
+                        <td>Low airflow rate</td>
+                        <td>Check air filter condition. Clean or replace clogged filter element. Adjust fan settings.</td>
+                        <td><span class="ph b" style="color: #38BDF8;">Low</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>E404</strong></td>
+                        <td>Emergency stop activated</td>
+                        <td>Release E-Stop button after ensuring chamber safety. Reset alarm on HMI screen.</td>
+                        <td><span class="ph b" style="color: #DC2626;">Critical</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>E510</strong></td>
+                        <td>Temperature sensor fault</td>
+                        <td>Calibrate or replace temperature probe. Inspect sensor cable line.</td>
+                        <td><span class="ph b" style="color: #E87722;">Medium</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section class="section" id="error-codes__diagnostic-procedure"><h2 class="title sectiontitle">General Diagnostic Procedure</h2>
+            <ol class="ol">
+                <li class="li">Record the exact error code displayed on the main touchscreen HMI panel.</li>
+                <li class="li">Cross-reference the code with the table above to identify the potential cause.</li>
+                <li class="li">Always perform Lockout/Tagout (LOTO) prior to physical inspection inside safety guards.</li>
+                <li class="li">If the code persists after completing the solution steps, contact Bühler Global Support.</li>
+            </ol>
+        </section>
+    </div>
+</article></main></body></html>
